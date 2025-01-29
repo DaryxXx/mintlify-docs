@@ -53,12 +53,13 @@
       "group": "Get Started",
       "pages": [
         "introduction",
-        "quickstart",
-        "development"
+        "Sign up on Autoppia",
+        "Glossary",
+        "FAQs"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Core products",
       "pages": [
         "essentials/markdown",
         "essentials/code",
@@ -66,6 +67,14 @@
         "essentials/settings",
         "essentials/navigation",
         "essentials/reusable-snippets"
+      ]
+    },
+    {
+      "group": "Guides",
+      "pages": [
+        "essentials/markdown",
+        "essentials/code",
+        "essentials/images"
       ]
     },
     {
