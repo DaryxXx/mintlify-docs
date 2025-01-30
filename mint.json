@@ -23,7 +23,7 @@
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://app.autoppia.com/auth/sign-in?redirectURL=%2F"
   },
   "tabs": [
     {
@@ -53,20 +53,18 @@
       "group": "Get Started",
       "pages": [
         "introduction",
-        "Sign up on Autoppia",
-        "Glossary",
-        "FAQs"
+        "glossary",
+        "faq"
       ]
     },
     {
       "group": "Core products",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "core-product/autoppia-studio",
+        "core-product/autoppia-chat",
+        "core-product/coworker-extention",
+        "core-product/web-colliseum",
+        "core-product/ai-worker"
       ]
     },
     {
