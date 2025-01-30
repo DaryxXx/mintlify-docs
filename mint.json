@@ -60,7 +60,12 @@
     {
       "group": "Core products",
       "pages": [
-        "core-product/autoppia-studio",
+        {
+          "group": "Autoppia Studio",
+          "pages": [
+            "core-product/autoppia-studio/integration"
+          ]
+      },
         "core-product/autoppia-chat",
         "core-product/coworker-extention",
         "core-product/web-colliseum",

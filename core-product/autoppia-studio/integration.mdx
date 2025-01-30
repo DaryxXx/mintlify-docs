@@ -1,0 +1,139 @@
+---
+title: 'Integration'
+description: 'Text, title, and styling in standard markdown'
+icon: 'chair-office'
+---
+
+
+## **Overview**
+The **Integrations Dashboard** in **Autoppia Studio** offers a centralized interface to manage various services, such as APIs, databases, and messaging systems. This guide will take you through **adding, activating, testing, and troubleshooting integrations**.
+
+![Ecosystem Overview](/images/integration.png)
+
+
+
+
+
+---
+
+## **Key Features of the Dashboard**
+
+<CardGroup cols={2}>
+  <Card title="Integration Cards" icon="square-1">
+    Each card represents an integration (e.g., API, SMTP, PostgreSQL).  
+    Displays integration name, type, and status (active or inactive).
+  </Card>
+  <Card title="Category Filter" icon="square-2">
+    Filter by categories like APIs, databases, or messaging services.  
+    Narrow down active or inactive integrations quickly.
+  </Card>
+  <Card title="Grid or List View" icon="square-3">
+    Toggle between grid view (default) and list view for your preferred layout.
+  </Card>
+  <Card title="Add New Integration" icon="square-4">
+    Easily add new services like REST APIs, databases, and web apps by clicking the "+" card.
+  </Card>
+</CardGroup>
+
+
+
+
+
+
+---
+
+## **Step-by-Step Guide**
+
+
+<Steps>
+  <Step title="Step 1: Access the Integrations Dashboard">
+    1. **Log in** to Autoppia Studio.  
+    2. From the main dashboard or sidebar, **navigate to “Integrations.”**  
+    3. Toggle between **grid view** and **list view** if needed (top-right icons).
+  </Step>
+  
+  <Step title="Step 2: Understanding the Interface">
+    - **Integration Cards** show the service type (API, PostgreSQL, SMTP, etc.) and its current status.  
+    - Use the **filter dropdown** to show specific categories like databases, messaging services, or web apps.  
+    - **Hide inactive integrations** by enabling the toggle switch.
+  </Step>
+  
+  <Step title="Step 3: Adding a New Integration">
+    1. Click the **“+” Card** to add a new integration.  
+    2. Select the desired service type:  
+      - **API (REST or GraphQL)**  
+      - **Database (PostgreSQL, MySQL, etc.)**  
+      - **SMTP (Email)**  
+      - **Web App**  
+
+    3. Follow the configuration prompts:  
+      - For APIs: Provide the base URL, headers, and authentication details.  
+      - For databases: Enter the connection string, username, and password.  
+      - For SMTP: Configure the SMTP server, port, and credentials.
+
+    4. **Test the connection** using the built-in testing tool.  
+    5. **Save and confirm** the integration.
+  </Step>
+
+  <Step title="Step 4: Activating an Integration">
+    - Locate the integration on the dashboard.  
+    - If the status shows as **"Inactive"**, toggle the switch to **“Active.”**  
+    - **Test the integration** to ensure it's working as expected.
+
+    > 💡 **Tip:** APIs often require testing endpoints using external tools like **Postman** or **Hoppscotch** after activation.
+  </Step>
+
+  <Step title="Step 5: Deactivating or Removing an Integration">
+    1. Locate the integration card and toggle its status to **Inactive**.  
+    2. (Optional) To permanently **remove the integration**:  
+      - Click the card to open its settings.  
+      - Select the **delete option** and confirm.
+<Warning>🚨 **Warning:** Deleting an integration may result in lost configurations. Ensure you have backups of sensitive settings like API keys and database credentials.</Warning>
+
+      </Step>
+
+  <Step title="Step 6: Filtering and Searching">
+    1. **Category Filter:** Use the dropdown to select a category like APIs, databases, or messaging.  
+    2. **Hide inactive integrations** by enabling the toggle to reduce clutter.  
+    3. Use the **search bar** (if available) to find integrations by name.
+  </Step>
+
+  <Step title="Step 7: Testing and Debugging Integrations">
+    1. **For APIs:**  
+      - Use API testing tools like **Postman** or **Hoppscotch**.  
+      - Test GET, POST, PUT, and DELETE requests to ensure endpoint functionality.  
+
+    2. **For Databases:**  
+      - Run sample queries to confirm proper connectivity and data retrieval.  
+
+    3. **For SMTP:**  
+      - Send test emails and verify email delivery logs.
+  </Step>
+
+  <Step title="Step 8: Monitoring and Managing Integration Health">
+    - Regularly monitor **API rate limits** and error responses.  
+    - Use built-in or external monitoring tools to detect connectivity issues.  
+    - Maintain **logs for all key operations** to facilitate quick troubleshooting.
+  </Step>
+</Steps>
+
+  ## Troubleshooting Common Issues
+    <CardGroup cols={2}>
+      <Card title="Issue: Integration fails to activate" icon="credit-card-front">
+        **Cause:** Incorrect credentials or configuration  
+        **Solution:** Double-check the settings and verify credentials.
+      </Card>
+      <Card title="Issue: API requests return 401/403 errors" icon="code">
+        **Cause:** Authentication issues  
+        **Solution:** Ensure that API keys, tokens, or OAuth configurations are correctly set.
+      </Card>
+      <Card title="Issue: Database connection errors" icon="database">
+        **Cause:** Incorrect connection string or server is offline  
+        **Solution:** Verify the connection string and database availability.
+      </Card>
+      <Card title="Issue: SMTP not sending emails" icon="envelope">
+        **Cause:** Incorrect SMTP settings or blocked ports  
+        **Solution:** Confirm the SMTP server details and check for any firewall issues.
+      </Card>
+    </CardGroup>
+ 
